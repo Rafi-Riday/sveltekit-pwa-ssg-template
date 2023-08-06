@@ -1,0 +1,22 @@
+{
+	"name": "pwa-ssg-template",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build && node postbuild-windows.js",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^2.0.2",
+		"@sveltejs/kit": "^1.18.0",
+		"@vite-pwa/sveltekit": "^0.2.2",
+		"glob": "^10.2.6",
+		"html-minifier-terser": "^7.2.0",
+		"svelte": "^3.59.1",
+		"vite": "^4.3.8",
+		"vite-plugin-svelte-console-remover": "^1.0.10",
+		"workbox-window": "^6.5.4"
+	},
+	"type": "module"
+}
